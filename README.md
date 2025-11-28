@@ -1,23 +1,56 @@
-# image-processing-package
 
-# package_name
+---
 
-Description.
-The package package_name is used to:
-Image Processing - Histogram matching - Structural similarity - Resize image
+# ✅ **Image Processing Package**
 
-## Installation
+```md
+# 🖼️ Image Processing Package (Python)
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Este projeto é um pequeno pacote de processamento de imagens criado como parte dos meus estudos em Python e visão computacional.  
+O objetivo é praticar modularização, organização de código e criação de funções para manipulação básica de imagens.
 
-```bash
-pip install package_name
-```
+---
 
-## Author
+## 🎯 Objetivo
+Criar funções reutilizáveis que permitam:
+- Redimensionar imagens  
+- Converter para escala de cinza  
+- Aplicar filtros simples  
+- Salvar e carregar arquivos  
 
-Dorival
+---
 
-## License
+## 🧠 Conceitos aplicados
+- Modularização em Python  
+- Manipulação de imagens  
+- Uso da biblioteca PIL / OpenCV  
+- Estrutura de pacotes  
 
-[MIT](https://choosealicense.com/licenses/mit/)
+---
+
+## 🚀 Como executar
+Instale as dependências:
+pip install pillow
+from src.resize import resize_image
+resize_image("input.jpg", "output.jpg", (300, 300))
+
+---
+
+🔧 Tecnologias
+* Python
+* PIL (Pillow) ou OpenCV
+
+---
+
+📌 Possíveis melhorias
+* Criar versão pip installable
+* Adicionar mais filtros avançados
+* Criar testes unitários
+* Gerar documentação automática
+* Criar uma API REST com FastAPI
+
+---
+
+📘 Status
+✔ Pacote funcional
+🚧 Em evolução contínua
